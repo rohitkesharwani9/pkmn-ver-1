@@ -1,0 +1,218 @@
+{
+  "title": "Pokemon Typ Rechner - Typisierung und Reichweite",
+  "navigation": {
+    "offense": "Angriff",
+    "defense": "Verteidigung",
+    "pokedex": "Pokédex",
+    "more": "Mehr"
+  },
+  "offense": {
+    "chooseTypes": "Typen auswählen",
+    "dealsXTo": "Fügt {{ x }} Schaden zu"
+  },
+  "coverage": {
+    "heading": "Schwächen-Abdeckung",
+    "paragraph1": "Importieren und exportieren Sie benutzerdefinierte Pokédex-CSV-Dateien, um die Schwächen verschiedener Pokémon zu sehen. Erstellen Sie eine benutzerdefinierte CSV-Datei mit nur den OU-Tier-Pokémon oder erstellen Sie sogar Ihre eigenen Pokémon von Grund auf.",
+    "paragraph2": "CSV-Daten werden nach dem Namen der Spaltenüberschrift geladen, nicht nach der Reihenfolge der Spalten. Sie können also nach belieben Spalten hinzufügen oder neu anordnen (z. B. eine Spalte \"Ebene\" oder eine Spalte \"Notizen\" hinzufügen).",
+    "paragraph3": "CSV-Dateien können mit Google Sheets, Microsoft Excel, OpenOffice, LibreOffice, Notepad und anderen Programmen bearbeitet werden.",
+    "csvHeaders": {
+      "number": "Nummer",
+      "name": "Name",
+      "type1": "Typ 1",
+      "type2": "Typ 2",
+      "type3": "Typ 3"
+    },
+    "export": {
+      "button": "Exportieren",
+      "description": "Den Standard-Pokédex in eine CSV-Datei exportieren"
+    },
+    "import": {
+      "button": "Importieren",
+      "description": "Eine bearbeitete Pokédex-CSV-Datei importieren"
+    },
+    "reset": {
+      "button": "Zurücksetzen",
+      "description": "Auf den Standard-Pokédex zurücksetzen"
+    },
+    "filename": "pkmn.help Typ coverage.csv",
+    "status": {
+      "imported": "Importierte {{ n }} Pokémon-Formen aus \"{{ Datei }}\"",
+      "exported": "Exportierte Standard-Pokémon-Formen",
+      "reset": "Standard Pokémon-Formen geladen",
+      "errored": "Fehler beim Laden von CSV. Ändern Sie keine Kopfzeilennamen."
+    },
+    "back": "Zurück zum Angriff"
+  },
+  "defense": {
+    "chooseFirst": "Ersten Typ wählen",
+    "chooseSecond": "Zweiten Typ wählen",
+    "chooseThird": "Dritten Typ wählen",
+    "takesXFrom": "Nimmt {{ x }} Schaden von"
+  },
+  "pokedex": {
+    "search": {
+      "description": "Suche nach Name, Nummer oder Typen",
+      "help": "Hilfe",
+      "helpLong": "Hilfe, Pokédex-Suche"
+    },
+    "offense": {
+      "text": "Angriff"
+    },
+    "defense": {
+      "text": "Verteidigung"
+    },
+    "pagination": {
+      "next": "Weiter",
+      "nextLong": "Weiter",
+      "previous": "Vor",
+      "previousLong": "Vorherige",
+      "firstLong": "Erste",
+      "lastLong": "Letzte"
+    },
+    "stats": {
+      "hp": "HP",
+      "hpLong": "HP",
+      "attack": "Ang.",
+      "attackLong": "Angriff",
+      "defense": "Vert.",
+      "defenseLong": "Verteidigung",
+      "specialAttack": "Sp. Ang.",
+      "specialAttackLong": "Spezial-Angriff",
+      "specialDefense": "Sp. Vert.",
+      "specialDefenseLong": "Spezial-Verteidigung",
+      "speed": "Geschw.",
+      "speedLong": "Geschwindigkeit",
+      "total": "Gesamt",
+      "totalLong": "Gesamt"
+    }
+  },
+  "pokedexHelp": {
+    "searchByName": {
+      "heading": "Suche nach Name",
+      "description": "Du kannst nach einem Pokémon anhand seines Namens suchen. Wenn du dich nur an einen Teil des Pokémon-Namens erinnerst, findet es das Pokémon wahrscheinlich trotzdem für dich. Mit Tippfehlern kann es im Moment allerdings nicht umgehen."
+    },
+    "searchByNumber": {
+      "heading": "Suche nach Nummer",
+      "description": "Suche nach der nationalen Dex-Nummer. Wenn du Bisasam suchst, gib einfach 1 ein, nicht #001."
+    },
+    "searchByType": {
+      "heading": "Suche nach Typ",
+      "description": "Hier sind ein paar Beispiele für die Suche nach Typen."
+    },
+    "searchExamples": {
+      "type": {
+        "query": "Feuer",
+        "description": "Suche nach Pokémon, die Feuer als einen ihrer Typen in irgendeiner Form haben (z. B. Glumanda, Glurak, Rotom)."
+      },
+      "doubleType": {
+        "query": "Wasser Flug",
+        "description": "Suche nach Pokémon, die entweder Wasser/Flug (z. B. Garados) oder Flug/Wasser (z. B. Urgl) sind."
+      },
+      "singleType": {
+        "query": "Pflanze Kein",
+        "description": "Suche nach Pokémon, die nur vom Typ Pflanze sind und keinen 2. Typ besitzen (z. B. Tangela, Endivie)."
+      }
+    },
+    "back": "Zurück zum Pokédex"
+  },
+  "more": {
+    "contact": {
+      "heading": "Kontakt",
+      "intro": "Hallo zusammen! Mein Name ist Rohit Kesharwani, unsere Homepage <homepage>Pkmnn.help</homepage>, und ich bin der Kopf hinter der Website Pokémon-Typ-Rechner. Als freiberuflicher Entwickler bin ich auf die Erstellung von Websites und anderen Projekten spezialisiert. Wenn Sie einen Bedarf haben, zögern Sie nicht, mich zu kontaktieren. Klicken Sie hier, um mehr <homepage>Pokemon Tool</homepage> zu finden.",
+      "email": "Teilen Sie uns Ihre Gedanken und Dankesbekundungen mit, indem Sie eine E-Mail an <email>me@rohitkesharwani.com</email> senden."
+    },
+    "settings": {
+      "heading": "Einstellungen",
+      "language": {
+        "label": "Sprache",
+        "helpText": "Die Sprachunterstützung ist unvollständig. Nur die Pokémon-Namen werden übersetzt."
+      },
+      "theme": {
+        "label": "Thema",
+        "help": "\"System Standard\" ändert sich automatisch je nach den Einstellungen Ihres Betriebssystems.",
+        "values": {
+          "auto": "System Standard",
+          "light": "Hell",
+          "dark": "Dunkel"
+        }
+      },
+      "typeCount": {
+        "label": "Anzahl der Typen",
+        "help": "Pokémon können kurzfristig drei Typen auf einmal haben, wenn sie mit Waldesfluch oder Halloween getroffen werden. Das Feld für den dritten Typ ist standardmäßig ausgeblendet, da es selten verwendet wird.",
+        "values": {
+          "2": "Zwei Typen (2)",
+          "3": "Drei Typen (3)"
+        }
+      }
+    },
+    "help": {
+      "heading": "Hilfe",
+      "serviceWorker": {
+        "description": "Diese Schaltfläche kann helfen, Probleme in der Anwendung zu beheben.",
+        "button": "Service Worker abmelden"
+      }
+    },
+    "privacy": {
+      "heading": "Datenschutz",
+      "description": "Könnten Sie bitte in Erwägung ziehen, diese Website auf Ihrer Webseite zu verlinken, sie in Ihren sozialen Medien zu teilen, sie in Gruppen zu diskutieren oder sie in einen Ihrer Streams oder YouTube-Videos aufzunehmen? Ich habe zahlreiche Stunden damit verbracht, diese Seite zu verbessern, und wenn Ihnen gefällt, was ich geschaffen habe, würden wir Ihre Unterstützung bei der Verbreitung sehr zu schätzen wissen."
+    },
+    "givingBack": {
+      "heading": "Zurückgeben",
+      "description": "Your experience here is ad-free, and your personal data is secure. This platform is powered by open hosting, is self-funded, independent, hosted in the EU, and operates without storing any cookies on your computer."
+    },
+    "thanks": {
+      "heading": "Besonderer Dank",
+      "sections": {
+        "da": "Dänische Übersetzung",
+        "ru": "Russische Übersetzung",
+        "kk": "Kasachische Übersetzung",
+        "pt-BR": "Brasilianische Portugiesische Übersetzung",
+        "zh-Hans": "Chinesische Übersetzung",
+        "ro": "Rumänisch Übersetzung",
+        "fr": "Französische Übersetzung",
+        "de": "Deutsche Übersetzung",
+        "it": "Italienische Übersetzung",
+        "ja": "Japanische Übersetzung",
+        "testing": "Testen",
+        "other": "Mehrere anonyme Poké-Fans"
+      }
+    },
+    "openSource": {
+      "heading": "Offener Quellcode",
+      "description": "Der Quellcode ist auf <github>GitHub</github> verfügbar."
+    },
+    "legalInfo": {
+      "heading": "Rechtliche Hinweise."
+    }
+  },
+  "types": {
+    "normal": "Normal",
+    "fighting": "Kampf",
+    "flying": "Flug",
+    "poison": "Gift",
+    "ground": "Boden",
+    "rock": "Gestein",
+    "bug": "Käfer",
+    "ghost": "Geist",
+    "steel": "Stahl",
+    "fire": "Feuer",
+    "water": "Wasser",
+    "grass": "Pflanze",
+    "electric": "Elektro",
+    "psychic": "Psycho",
+    "ice": "Eis",
+    "dragon": "Drache",
+    "dark": "Unlicht",
+    "fairy": "Fee",
+    "none": "Kein"
+  },
+  "banners": {
+    "updateReady": {
+      "description": "Ein Update ist verfügbar",
+      "update": "Aktualisierung"
+    }
+  },
+  "general": {
+    "loading": "Laden..."
+  }
+}

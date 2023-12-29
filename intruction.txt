@@ -1,0 +1,9 @@
+To make url in more page
+go to en-translation 191 line and screenMore.tsx file from line 71
+
+<a href="https://www.facebook.com/sharer.php?u=https://calculator.mypokemon.online&quote=%F0%9F%94%A5%F0%9F%8C%9F%F0%9F%9A%80%20Check%20out%20my%20Online%20Pokemon%20Type%20Calculator%20Tool%20https://Calculator.MyPokemon.online%20%F0%9F%8E%AE%F0%9F%94%A5%20Don't%20miss%20the%20action!%20Click%20and%20View%20NOW!%F0%9F%94%A5" target="_blank" rel="noopener noreferrer" className={tabClass}>
+         Facebook
+         </a> 
+
+
+         header original color in style.css hsl(357 97% 46%)

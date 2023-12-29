@@ -1,0 +1,40 @@
+{
+  "name": "Pokemon Type Calculator - Pkmnn.help",
+  "short_name": "Pkmnn.Help",
+  "lang": "en",
+  "start_url": "/",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "hsl(357, 97%, 46%)",
+  "background_color": "hsl(357, 97%, 46%)",
+  "display": "standalone"
+}

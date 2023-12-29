@@ -1,0 +1,310 @@
+{
+  "title": "Pokemon Type Calculator - Typing & Coverage Tool",
+  "navigation": {
+    "offense": "Offense",
+    "defense": "Defense",
+    "pokedex": "Pokédex",
+    "more": "More"
+  },
+  "offense": {
+    "chooseTypes": "Choose Types",
+    "dealsXTo": "Deals {{ x }} to",
+    "coverage": {
+      "heading": "Pokédex Coverage",
+      "edit": "Edit list",
+      "weakness": "Weak",
+      "normal": "Normal",
+      "resistance": "Resist"
+    },
+    "coverageList": {
+      "empty": "No Pokémon found or no types selected",
+      "weakness": {
+        "heading": "Weakness Coverage List",
+        "description": "These Pokémon are weak to at least one of the selected types."
+      },
+      "normal": {
+        "heading": "Normal Effectiveness Coverage List",
+        "description": "These Pokémon are not in the weakness or resistance lists for the selected types."
+      },
+      "resistance": {
+        "heading": "Resistance Coverage List",
+        "description": "These Pokémon are resistant to all of the selected types."
+      }
+    }
+  },
+  "coverage": {
+    "heading": "Pokédex Coverage",
+    "paragraph1": "Import/export custom Pokédex CSV files to see coverage for different Pokémon. Create a custom CSV file with just the OU tier Pokémon, or even create your own Pokémon from scratch.",
+    "paragraph2": "CSV data is loaded by column header name, not column order, so you can add or re-order columns if you want (e.g. add a “tier” column, or a “notes” column).",
+    "paragraph3": "CSV files can be edited with Google Sheets, Microsoft Excel, OpenOffice, LibreOffice, Notepad, and more.",
+    "csvHeaders": {
+      "number": "Number",
+      "name": "Name",
+      "type1": "Type 1",
+      "type2": "Type 2",
+      "type3": "Type 3"
+    },
+    "export": {
+      "button": "Export",
+      "description": "Export the default Pokédex to a CSV file"
+    },
+    "import": {
+      "button": "Import",
+      "description": "Import an edited Pokédex CSV file"
+    },
+    "reset": {
+      "button": "Reset",
+      "description": "Reset to the default Pokédex"
+    },
+    "filename": "type.pkmnn.help type coverage.csv",
+    "status": {
+      "imported": "Imported {{ n }} Pokémon forms from “{{ file }}”",
+      "exported": "Exported default Pokémon forms",
+      "reset": "Loaded default Pokémon forms",
+      "errored": "Error loading CSV. Don't change header names."
+    },
+    "back": "Back to offense"
+  },
+  "defense": {
+    "chooseFirst": "Choose First Type",
+    "chooseSecond": "Choose Second Type",
+    "chooseThird": "Choose Third Type",
+    "takesXFrom": "Takes {{ x }} From",
+    "chooseAbility": "Choose Ability",
+    "abilityNames": {
+      "none": "None",
+      "wonder_guard": "Wonder Guard",
+      "delta_stream": "Delta Stream",
+      "fluffy": "Fluffy",
+      "purifying_salt": "Purifying Salt",
+      "heatproof": "Heatproof",
+      "water_bubble": "Water Bubble",
+      "thick_fat": "Thick Fat",
+      "earth_eater": "Earth Eater",
+      "levitate": "Levitate",
+      "flash_fire": "Flash Fire",
+      "well_baked_body": "Well-Baked Body",
+      "dry_skin": "Dry Skin",
+      "storm_drain": "Storm Drain",
+      "water_absorb": "Water Absorb",
+      "sap_sipper": "Sap Sipper",
+      "lightning_rod": "Lightning Rod",
+      "motor_drive": "Motor Drive",
+      "volt_absorb": "Volt Absorb"
+    },
+    "mode": {
+      "heading": "Choose Mode",
+      "solo": "Solo",
+      "team": "Team"
+    },
+    "team": {
+      "tableHeading": "Matchup Counts",
+      "heading": "Edit Pokémon Team",
+      "add": "Add Pokémon",
+      "empty": "No Pokémon selected",
+      "displayType": "Table Format",
+      "weak": "Weak",
+      "resist": "Resist",
+      "simple": "Simple",
+      "complex": "Complex",
+      "type": "Type",
+      "save": "Save",
+      "saveLong": "Save {{ name }}",
+      "edit": "Edit",
+      "editLong": "Edit {{ name }}",
+      "remove": "Remove",
+      "removeLong": "Remove {{ name }}"
+    }
+  },
+  "pokedex": {
+    "search": {
+      "description": "Search by name, number, or types",
+      "help": "Help",
+      "helpLong": "Help, search Pokédex",
+      "notFound": "No Pokémon found"
+    },
+    "offense": {
+      "text": "Offense"
+    },
+    "defense": {
+      "text": "Defense"
+    },
+    "shiny": {
+      "label": "Shiny for {{ pokemon }}",
+      "text": "Shiny"
+    },
+    "pagination": {
+      "next": "Next",
+      "nextLong": "Next",
+      "previous": "Prev",
+      "previousLong": "Previous",
+      "firstLong": "First",
+      "lastLong": "Last"
+    },
+    "stats": {
+      "hp": "HP",
+      "hpLong": "Hit Points",
+      "attack": "Attack",
+      "attackLong": "Attack",
+      "defense": "Defense",
+      "defenseLong": "Defense",
+      "specialAttack": "Sp. Atk.",
+      "specialAttackLong": "Special Attack",
+      "specialDefense": "Sp. Def.",
+      "specialDefenseLong": "Special Defense",
+      "speed": "Speed",
+      "speedLong": "Speed",
+      "total": "Total",
+      "totalLong": "Total"
+    }
+  },
+  "pokedexHelp": {
+    "searchByName": {
+      "heading": "Search pokemon by name",
+      "description": "Looking for a Pokémon? Enter its name, and even if you remember just part of it, the system should be able to locate it."
+    },
+    "searchByNumber": {
+      "heading": "Search pokemon by number",
+      "description": "Find Pokémon using their national dex number. For example if you want Bulbasaur, just enter 1, not #001."
+    },
+    "searchByType": {
+      "heading": "Search pokemon by type",
+      "description": "Explore various search options based on types."
+    },
+    "searchExamples": {
+      "type": {
+        "query": "fire",
+        "description": "Find Pokémon that include fire as one of their types, such as Charmander, Charizard, and Rotom."
+      },
+      "doubleType": {
+        "query": "water flying",
+        "description": "Explore Pokémon that have a water/flying combination (like Gyarados) or a flying/water combination (such as Cramorant)."
+      },
+      "singleType": {
+        "query": "grass none",
+        "description": "Look for Pokémon specifically categorized as grass type with no additional secondary type, such as Tangela, Chikorita, and Lilligant."
+      }
+    },
+    "back": "Back to Pokédex page"
+  },
+  "more": {
+    "contact": {
+      "heading": "Reach out to me...",
+      "intro": "Hey there! My name is Rohit Kesharwani our homepage <homepage>Pkmnn.help</homepage>, and I'm the mind behind the Pokémon Type Calculator website. As a freelance developer, I specialize in creating websites and other projects. If you have a need, don't hesitate to contact me. Click here to find More <homepage>Pokemon Tool.</homepage>",
+      "typechart": "Explore Our More Pokemon Tools - <typechart>Pokemon Type Chart</typechart> | <team>Pokemon Team Builder and Planner</team>",
+      "email": "Feel free to share your thoughts and expressions of gratitude by sending an email to <email>me@rohitkesharwani.com</email>."
+      
+      
+    },
+    "settings": {
+      "heading": "Site Settings -",
+      "language": {
+        "label": "Change Language",
+        "default": "Auto detect language",
+        "helpText": "Language support is incomplete. Please email me, I will pay you to translate."
+      },
+      "theme": {
+        "label": "Theme",
+        "help": "“System default” will change automatically depending on your operating system settings.",
+        "values": {
+          "auto": "System default",
+          "light": "Light",
+          "dark": "Dark"
+        }
+      },
+      "typeCount": {
+        "label": "Number of Types",
+        "help": "Pokémon can briefly have three types at once if hit with Forests’s Curse or Trick-or-Treat. The third type field is hidden by default since it is rarely used.",
+        "values": {
+          "2": "Two types (2)",
+          "3": "Three types (3)"
+        }
+      }
+    },
+    "changes": {
+      "heading": "What’s new",
+      "description": "See what's new in the <changelog>changelog</changelog>."
+    },
+    "help": {
+      "heading": "Need any support?",
+      "serviceWorker": {
+        "description": "Resolve app-related issues by simply pressing this button.",
+        "button": "Reset"
+      }
+    },
+    "privacy": {
+      "heading": "Privacy Policy",
+      "description": "Your experience here is ad-free, and your personal data is secure. This platform is powered by open hosting, is self-funded, independent, hosted in the EU, and operates without storing any cookies on your computer."
+    },
+    "givingBack": {
+      "heading": "Conveying Thanks",
+      "description": "Could you please consider linking this website to your webpage, sharing it on your social media, discussing it in groups, or including it in any of your streams or YouTube videos? I've dedicated numerous hours to improving this site, and if you appreciate what I've created, your support in spreading the word would be greatly appreciated."
+    },
+    "thanks": {
+      "heading": "Special Thanks",
+      "sections": {
+        "da": "Danish translation",
+        "ru": "Russian translation",
+        "kk": "Kazakh translation",
+        "pt-BR": "Brazilian Portuguese translation",
+        "zh-Hans": "Simplified Chinese translation",
+        "ro": "Romanian translation",
+        "pl": "Polish translation",
+        "fr": "French translation",
+        "de": "German translation",
+        "it": "Italian translation",
+        "ko": "Korean translation",
+        "ja": "Japanese translation",
+        "testing": "Testing",
+        "other": "Several anonymous Poké Fans"
+      }
+    },
+    "openSource": {
+      "heading": "Download Source Code",
+      "description": "Source code is available on <github>WebTech By Rohit</github>."
+    },
+    "legalInfo": {
+      "heading": "Legal Information"
+    }
+  },
+  "types": {
+    "normal": "Normal",
+    "fighting": "Fighting",
+    "flying": "Flying",
+    "poison": "Poison",
+    "ground": "Ground",
+    "rock": "Rock",
+    "bug": "Bug",
+    "ghost": "Ghost",
+    "steel": "Steel",
+    "fire": "Fire",
+    "water": "Water",
+    "grass": "Grass",
+    "electric": "Electric",
+    "psychic": "Psychic",
+    "ice": "Ice",
+    "dragon": "Dragon",
+    "dark": "Dark",
+    "fairy": "Fairy",
+    "none": "None"
+  },
+  "banners": {
+    "updateReady": {
+      "description": "An update is available",
+      "whatsNew": "What’s new",
+      "update": "Update"
+    }
+  },
+  "general": {
+    "loading": "Loading…"
+  },
+  "games": {
+    "label": "Game Generation",
+    "help": "Use type effectiveness from different game generations.",
+    "byID": {
+      "gen1": "Generation 1",
+      "gen2": "Generation 2–5",
+      "default": "Default (Generation 6+)"
+    }
+  }
+}
