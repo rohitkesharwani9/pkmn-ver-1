@@ -130,7 +130,7 @@ export function App() {
         <html data-theme={theme} data-theme-auto={themeAuto} />
         <meta name="theme-color" content={themeColor} />
         <title>{t("title")}</title>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2305974348753248" crossorigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2305974348753248" crossOrigin="anonymous"></script>
       </Helmet>
       <div className="flex-auto">
         <h1 className={`f3-ns f4 tc relative white ${styles.header}`}>
@@ -221,7 +221,7 @@ export function App() {
          <img src="/wa.svg" alt="Whatsapp" width="25" height="15"/></a>
            <a href="https://twitter.com/intent/tweet?url=🔥🌟🚀 Check out my Online Pokemon Type Calculator Tool https://type.pkmnn.help 🎮🔥 Don't miss the action! Click and View NOW!🔥" target="_blank" rel="noopener" className={tabClass}>
          Twitter
-         </a><a href="https://www.facebook.com/sharer.php?u=https://type.pkmnn.help&quote=%F0%9F%94%A5%F0%9F%8C%9F%F0%9F%9A%80%20Check%20out%20my%20Online%20Pokemon%20Type%20Calculator%20Tool%20https://type.pkmnn.help%20%F0%9F%8E%AE%F0%9F%94%A5%20Don't%20miss%20the%20action!%20Click%20and%20View%20NOW!%F0%9F%94%A5" target="_blank" rel="noopener" className={tabClass}>
+         </a><a href="https://www.facebook.com/sharer.php?u=https://type.pkmnn.help&quote=🔥🌟🚀 Check out my Online Pokemon Type Calculator Tool https://type.pkmnn.help 🎮🔥 Don't miss the action! Click and View NOW!🔥" target="_blank" rel="noopener" className={tabClass}>
          Facebook
          </a><a href="https://www.reddit.com/submit?url=https://type.pkmnn.help&title=🔥🌟🚀 Check out my Online Pokemon Type Calculator Tool https://type.pkmnn.help 🎮🔥 Don't miss the action! Click and View NOW!🔥" target="_blank" rel="noopener" className={tabClass}>
          Reddit
