@@ -126,12 +126,13 @@ export function App() {
 
   return (
     <HelmetProvider>
+      <Helmet>
+        <html data-theme={theme} data-theme-auto={themeAuto} />
+        <meta name="theme-color" content={themeColor} />
+        <title>{t("title")}</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2305974348753248" crossorigin="anonymous"></script>
+      </Helmet>
       <div className="flex-auto">
-        <Helmet>
-          <html data-theme={theme} data-theme-auto={themeAuto} />
-          <meta name="theme-color" content={themeColor} />
-          <title>{t("title")}</title>
-        </Helmet>
         <h1 className={`f3-ns f4 tc relative white ${styles.header}`}>
           <Link to="/" className="no-underline white focus-outline br1">
             {t("title")}
@@ -163,6 +164,18 @@ export function App() {
             </div>
           )}
         </h1>
+
+        {/* Google AdSense */}
+        <ins className="adsbygoogle"
+             style={{ display: "block" }}
+             data-ad-client="ca-pub-2305974348753248"
+             data-ad-slot="3867516561"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+          {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+        </script>
+
         <nav className={`bg1 bb border2 ${styles.tabBar} pb2 ph2`}>
          <a href="https://pkmnn.help" target="_blank" rel="noopener" className={tabClass}>
          All Tools
@@ -222,7 +235,16 @@ export function App() {
     To share your exact Pokédex, Defense, or offense team that is created on this page, copy the URL of that page and share it with friends or on any social media.
   </p>
 
-
+  {/* Google AdSense */}
+  <ins className="adsbygoogle"
+       style={{ display: "block" }}
+       data-ad-client="ca-pub-2305974348753248"
+       data-ad-slot="3867516561"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+    {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+  </script>
 
         <React.Suspense fallback={<Spinner />}>
           <Switch>
